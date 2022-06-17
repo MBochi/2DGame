@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float movementSpeed = 10f;
+    Vector2 movement;
+    public Rigidbody2D rb;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void Update() {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+    }
+    private void FixedUpdate() {
+        rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
     }
 }
