@@ -10,17 +10,23 @@ PrefabInstance:
     - target: {fileID: 278926566151694479, guid: c47f6d890480f77439f9e9b9dfb2b77e,
         type: 3}
       propertyPath: m_Name
-      value: Bullet
+      value: Bullet_Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1304761925241372818, guid: c47f6d890480f77439f9e9b9dfb2b77e,
         type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c72580824f0ffb478d9f9120c862677,
+        type: 3}
+    - target: {fileID: 1304761925241372818, guid: c47f6d890480f77439f9e9b9dfb2b77e,
+        type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1304761925241372818, guid: c47f6d890480f77439f9e9b9dfb2b77e,
         type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1304761925241372818, guid: c47f6d890480f77439f9e9b9dfb2b77e,
         type: 3}
@@ -81,6 +87,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7494086616593540752, guid: c47f6d890480f77439f9e9b9dfb2b77e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7494086616593540752, guid: c47f6d890480f77439f9e9b9dfb2b77e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.44
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c47f6d890480f77439f9e9b9dfb2b77e, type: 3}

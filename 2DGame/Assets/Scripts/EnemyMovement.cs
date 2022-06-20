@@ -19,6 +19,6 @@ public class EnemyMovement : MonoBehaviour
         target = GameObject.FindObjectOfType<PlayerMovement>();
         moveDirection = (target.transform.position - transform.position).normalized * movementSpeed;
         float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg -90f;
-        rb.rotation = angle;
+        rb.rotation = angle + 90f;
     }
 }
