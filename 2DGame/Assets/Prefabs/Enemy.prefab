@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 4357535754283731404}
-  bulletPrefab: {fileID: 2801974776334140358, guid: 1d0585d0e052302478a7032e9fec3daf,
+  bulletPrefab: {fileID: 6657412019541676253, guid: 6a0fb66b8a6c0474eae2716bc1fa4956,
     type: 3}
   respawnTime: 1
 --- !u!114 &661701833024035449
