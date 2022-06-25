@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e576380c915f6445a2230e6c3691518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
-  bulletForce: 20
+  damage: 5
+  bulletForce: 5
   rb: {fileID: 1794528919342574948}
   firePoint: {fileID: 1546824949547053977}

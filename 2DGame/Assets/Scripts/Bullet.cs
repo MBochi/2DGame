@@ -20,6 +20,10 @@ public class Bullet : MonoBehaviour
         if(enemy != null){
             enemy.TakeDamage(damage);
         }
+        Player player = collider.GetComponent<Player>();
+        if(player != null){
+            player.TakeDamage(damage);
+        }
         Destroy(gameObject);
     }
 }

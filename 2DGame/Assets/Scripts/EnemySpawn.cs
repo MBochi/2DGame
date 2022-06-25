@@ -7,6 +7,7 @@ public class EnemySpawn : MonoBehaviour
     public GameObject enemy;
     public float respawnTime = 1.0f;
     private Vector2 screenBounds;
+    public int enemyCount;
 
     private void Start() {
         Debug.Log("Running");
@@ -22,7 +23,10 @@ public class EnemySpawn : MonoBehaviour
     IEnumerator asteroidWave(){
         while(true){
             yield return new WaitForSeconds(respawnTime);
+            enemyCount = GameObject.FindGameObjectsWithTag("Respawn").Length;
+            if(enemyCount<5){
             SpawnEnemy();
+            }
         }
     }
 }
