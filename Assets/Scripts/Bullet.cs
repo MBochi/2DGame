@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// Class for Bullet Behaviour
 public class Bullet : MonoBehaviour
 {
     public int damage = 30;
