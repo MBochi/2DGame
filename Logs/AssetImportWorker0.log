@@ -301,3 +301,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181.993902 seconds.
+  path: Assets/Scripts/Test 1 zurück.cs
+  artifactKey: Guid(e0ca2f80cdf48784782eadf74ba4342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Test 1 zurück.cs using Guid(e0ca2f80cdf48784782eadf74ba4342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd482c47e2039242d96a052dad3090eaa') in 0.008247 seconds 
